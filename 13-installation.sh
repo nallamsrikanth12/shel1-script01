@@ -21,7 +21,7 @@ else
 fi 
 
 
-dnf install gitt -y
+dnf install git -y
 
 if [ $? -ne 0 ]
 then 
@@ -30,4 +30,13 @@ then
 else
     echo "installation is sucuess"
 fi  
-       
+
+dnf installl python -y
+
+if [ $? -ne 0 ]
+then
+    echo "python is not installed"
+    exit 1
+else
+    echo "python is sucess"
+fi  
