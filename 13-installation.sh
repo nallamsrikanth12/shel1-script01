@@ -18,7 +18,7 @@ then
     exit 1
 else    
     echo "installation is sucess"
-fi
+
 
 
 dnf install1 git -y
