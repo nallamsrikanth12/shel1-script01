@@ -21,7 +21,7 @@ else
 fi 
 
 
-dnf install git -y
+dnf install gitt -y
 
 if [ $? -ne 0 ]
 then 
