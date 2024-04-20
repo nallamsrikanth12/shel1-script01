@@ -8,3 +8,4 @@ then
     exit 1
 else
     echo "u are super user"   
+fi    
