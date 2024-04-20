@@ -18,3 +18,15 @@ then
     exit 1
 else    
     echo "installation is sucess"
+fi
+
+
+dnf install1 git -y
+
+if [ $? -ne 0 ]
+then 
+    echo  "git installation is failue"
+    exit 1
+else
+    echo "installation is sucuess"
+fi        
