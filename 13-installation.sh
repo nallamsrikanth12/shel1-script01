@@ -21,7 +21,7 @@ else
 
 
 
-dnf install1 git -y
+dnf install git -y
 
 if [ $? -ne 0 ]
 then 
@@ -29,4 +29,4 @@ then
     exit 1
 else
     echo "installation is sucuess"
-fi        
+       
