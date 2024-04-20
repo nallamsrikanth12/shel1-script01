@@ -31,7 +31,7 @@ else
     echo "installation is sucuess"
 fi  
 
-dnf installl python -y
+dnf install python -y
 
 if [ $? -ne 0 ]
 then
