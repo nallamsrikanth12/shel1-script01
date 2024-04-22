@@ -1,7 +1,7 @@
 USERID=$(id -u)
-TIMESTAND=$(date +%F-%H-%M-%S)
+TIMESTAMP=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1 )
-LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAND.log
+LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
 VALIDATE(){
 if [ $1 -ne 0 ]
