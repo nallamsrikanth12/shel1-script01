@@ -1,6 +1,6 @@
 USERID=$(id -u)
 TIMESTAND=$(date +%F-%H-%M-%S)
-SCRIPT_NAME=$(echo "$0 | cut -d "." -f1" )
+SCRIPT_NAME=$(echo $0 | cut -d "." -f1 )
 LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAND.log
 
 VALIDATE(){
