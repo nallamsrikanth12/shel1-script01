@@ -12,7 +12,7 @@ P="\e[34m"
 VALIDATE(){
 if [ $? -ne 0 ]
 then
-    echo -e "$2...$R FAILURE $N"
+    echo -e "$2...$R FAILURE "
 else 
     echo -e "$2 ...$G success $N"
 fi
