@@ -13,4 +13,10 @@ for i in $@
 do
   echo "package to install: $i"
   dnf list installed $i
+  if [ $? -eq 0 ]
+  then
+    echo "$i already installed ...skkippig"
+  else
+    echo "$1 not installed..need to install"  
+  fi   
 done 
