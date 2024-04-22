@@ -25,12 +25,7 @@ VALIDATE $? "installing mysql sucuessfully"
 
 
 dnf install git -y
-VALIDATE $? "installing git sucuessfully"
-
-
-
-dnf install java -y
-VALIDATE $? "installing java sucuessfully"
+VALIDATE $? "installing git sucuessfully
 
 
 
