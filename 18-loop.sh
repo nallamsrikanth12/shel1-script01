@@ -29,7 +29,6 @@ fi
 for i in $@
 do
   echo "package to install: $i" &>>$LOGFILE
-  dnf list installed $i
   if [ $? -eq 0 ]
   then
     echo "$i already installed ...skkippig"
