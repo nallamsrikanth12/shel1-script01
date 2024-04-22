@@ -3,7 +3,7 @@ USERID=$(id -u)
 
 VALIDATE(){
     echo "install mysql : $1"
-    echo "install git"
+    echo "install git   : $2"
 }
 
 
