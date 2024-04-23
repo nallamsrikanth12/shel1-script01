@@ -31,7 +31,7 @@ do
   echo "package to install: $i" &>>$LOGFILE
   if [ $? -eq 0 ]
   then
-    echo "$i already installed ...skkippig"
+    echo -e  "$i already installed ...$P skkippig $N"
   else
     dnf install $i -y &>>$LOGFILE
     VALIDATE  $?  "installating of $i"
