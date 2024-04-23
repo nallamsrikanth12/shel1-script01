@@ -37,3 +37,7 @@ do
     VALIDATE  $?  "installating of $i"
   fi   
 done 
+
+dnf install python -y
+
+VALIDATE $? "python is"
